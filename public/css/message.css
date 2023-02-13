@@ -1,0 +1,5 @@
+#message{
+    color: green;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
