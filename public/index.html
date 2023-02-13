@@ -14,14 +14,16 @@
         <img src="img/logo150.png" alt="">
     </header>
     <main>
+        <h1 id="text-title">Título do Chat</h1>
         <textarea name="" id="text-field" cols="9999999" rows="10"></textarea>
-    </main>
-    <footer>
-        <button id="change-colors">Alterar cor</button>
         <div id="last-update-container">
             <small id="now-time">Última Atualização : </small>
             <small id="last-update"></small>
         </div>
+    </main>
+    <footer>
+        <button id="change-colors">Alterar cor</button>
+        
         <small id="message"></small>
         <small id="offline-message">Conexão perdida! Fique online para poder salvar o documento.</small>
     </footer>
@@ -30,6 +32,8 @@
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
     <script src="js/firebaseConfig.js"></script>
+
+    <!-- JS scripts imports -->
     <script src="js/saveText.js"></script>
     <script src="js/time.js"></script>
     <script src="js/offlineMessage.js"></script>
